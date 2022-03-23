@@ -1,0 +1,3 @@
+[submodule "librarymodule"]
+	path = ../../platform/libraryModule
+	url = https://github.com/dkpathak/librarymodule.git
