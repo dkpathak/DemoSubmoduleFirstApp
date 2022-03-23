@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "FirstApp"
+include ':app'
+
+include ':basemodule'
+include ':libraryModule'
+
+project(':basemodule').projectDir = new File(settingsDir, '../../platform/basemodule')
+project(':libraryModule').projectDir = new File(settingsDir, '../../platform/libraryModule')
+
