@@ -1,5 +1,5 @@
 [submodule "librarymodule"]
-	path = ../../platform/libraryModule
+	path = libraryModule
 	url = https://github.com/dkpathak/librarymodule.git
 [submodule "basemodule"]
 	path = basemodule
